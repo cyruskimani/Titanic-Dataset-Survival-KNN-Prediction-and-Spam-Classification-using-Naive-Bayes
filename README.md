@@ -7,7 +7,7 @@ KNN is a supervised learning algorithm that predics the outcome of a test datase
 
 For this project, the task was to predict the likelyhood of a passenger on the titanic to survive based on several factors described in the dataset.
 
-## Source of the dataset:
+## Source of data:
 
 a) Train dataset: https://archive.org/download/train5_202002/train%20%285%29.csv
 
@@ -23,6 +23,34 @@ c)Number of nearest neighbors i.e. k-NN.
 
 ## Output:
 
-a)Each (test) record/instance and respective prediction.
+a)Each test instance and respective prediction.
 
-b)Overall accuracy for each type of distance/similarity measure
+b)Overall accuracy for each model.
+
+# 2. Naive Bayes Classifier
+
+The supervised Naive bayes classifier was implemented on a spam dataset to predict the likelyhood of a message to be ham or spam. 
+
+## Source of data:
+
+Spam dataset: https://archive.ics.uci.edu/ml/datasets/Spambase
+
+## Input to the code:
+
+a)Train Dataset.
+
+b)Classifier: Gaussian Naive Bayes.
+
+## Output:
+
+a)Each test instance and respective prediction.
+
+b)Overall accuracy for each model.
+
+
+
+
+
+
+
+
